@@ -1,0 +1,53 @@
+Java:
+- Datentypen:
+
+    9 Insgesammt
+    - Ganze Zahlen:
+    - Komma Zahlen
+    - Wahrheitswerte
+    - Einzelne Zecihen
+    - Zecihenketten
+
+- Input / Output:
+
+    - Prit
+    - Scanner
+    - casten (string to int als bsp.)
+    - Random Nummer
+
+- Schleifen:
+
+    - for
+    - while
+    - do while
+
+- Verzweigungen:
+
+    - Einseitig (if)
+    - Zweiseitung (if, else)
+    - Merhseitig (if, eliif, else) (Mit oder ohne Default)
+    - Switch (Mit und ohne Default)
+
+- Logische Operatoren:
+    
+    - und: &&
+    - oder: ||
+    - not: !
+    
+- Vergleichs Operator:
+
+    - gleich: ==
+    - nicht gleich: !=
+    - größer als: <
+    - größer gleich: <=
+    - kleiner: >
+    - kleiner als >=
+
+- Arrays:
+
+    - Array
+    - ArrayList
+    - Hashtable
+    - LinkedList
+
+- Unterprogramme
