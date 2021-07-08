@@ -1,31 +1,42 @@
 public class Unterprogramme
 {
 
-    //Funktion ohne Parameter Übergabe
-    static void myFunktion1(){
+    //Prozedur ohne Parameter Übergabe
+    static void myProzedur1(){
         System.out.println("Ausführen der Methode");
     }
 
-    //Funktion mit Parameter Übergabe
-    static void myFunktion2(String name){
+    //Prozedur mit Parameter Übergabe
+    static void myProzedur2(String name){
         System.out.println(name);
     }
+
+    
 
 
 
     public static void main (String[] args){
         
-        //Funktion ohne Parameter
-        myFunktion1();
+        //Prozeduren sind Methoden ohne Rückgabe
 
-        //Funktion mit Parameter
-        myFunktion2("Grüße aus der Funktion");
+        //Prozedur ohne Parameter
+        myProzedur1();
 
-        //
+        //Prozedur mit Parameter
+        myProzedur2("Grüße aus der Funktion");
 
+        
+        //Prozeduren sind Methoden ohne Rückgabe
+        int i = 5;
 
+        
+        System.out.println(myFunktion1(i));
+    }
 
-
+    //Prozedur
+    static int myFunktion1(int i){
+        int n = i * i;
+        return n;
     }
     
 }
