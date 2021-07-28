@@ -50,4 +50,8 @@ Java:
     - Hashtable
     - LinkedList
 
-- Unterprogramme
+- Unterprogramme (Methoden)
+    
+    - Prozeduren
+    - Funktionen
+    
