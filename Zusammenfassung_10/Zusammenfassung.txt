@@ -1,8 +1,8 @@
 Java:
 - Datentypen:
 
-    9 Insgesammt
-    - Ganze Zahlen:
+    9 Insgesammt:
+    - Ganze Zahlen
     - Komma Zahlen
     - Wahrheitswerte
     - Einzelne Zecihen

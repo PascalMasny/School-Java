@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+import java.util.Hashtable;
 import java.util.Scanner;
 import java.lang.Math;   
+import java.util.ArrayList;
 
 
 public class Zusammenfassung {
@@ -105,11 +108,68 @@ public class Zusammenfassung {
                 //default:
                 default:
                     break;
-
-
-
             }
 
 
-    }       
+         //Arrays
+
+            //1D Array
+            int o[] = new int[5]; //1D Array with 5 cells
+            o[0] = 1; //Array cell one == 1;
+
+            //2D Array
+            int p[][] = new int[2][2]; //2D Array with 2x2   ==> 0 0 
+            p[0][0] = 1; //Array cell 0,0 == 1;                  1 1
+
+            //ArrayList
+            ArrayList<Integer> q = new ArrayList<Integer>(5); //ArrayList with 5 cells
+            q.add(12); //Add Data to Array List
+            q.remove(12); //Remove from Array List
+
+            //Hashtable
+            Hashtable<Integer, String> r = new Hashtable<Integer, String>(); //hashtable with an int uns String 
+            r.put(1, "eins"); //Add Data
+            r.remove(1);
+
+            //LinkedList
+            LinkedList<String> t = new LinkedList<String>();
+            t.add("Hello World!");
+            t.remove(0);
+
+
+        //Unterprogramme
+
+            //Prozeduren sind Methoden ohne Rückgabe
+
+            //Prozedur ohne Parameter
+            myProzedur1();
+
+            //Prozedur mit Parameter
+            myProzedur2("Grüße aus der Funktion");
+
+            //Funktionen sind Methoden ohne Rückgabe
+            int v = 5;
+            System.out.println(myFunktion1(v));
+        
+     } 
+     
+     
+
+         // Unterporgamme
+
+            //Prozedur ohne Parameter Übergabe
+            static void myProzedur1(){
+                System.out.println("Ausführen der Methode");
+            }
+
+            //Prozedur mit Parameter Übergabe
+            static void myProzedur2(String name){
+                System.out.println(name);
+            }s
+
+            //Funktion
+            static int myFunktion1(int v){
+                int w = v * v;
+                return w;
+            }
 }
