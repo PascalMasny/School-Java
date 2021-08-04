@@ -26,14 +26,14 @@ public class Unterprogramme
         myProzedur2("Grüße aus der Funktion");
 
         
-        //Prozeduren sind Methoden ohne Rückgabe
+        //Funktionen sind Methoden ohne Rückgabe
         int i = 5;
 
         
         System.out.println(myFunktion1(i));
     }
 
-    //Prozedur
+    //Funktionen
     static int myFunktion1(int i){
         int n = i * i;
         return n;
