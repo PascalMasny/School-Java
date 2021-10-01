@@ -12,3 +12,9 @@ Alle Java Programme die ich in der  🏫 Berufsschule-VII-Augsburg im Zeitraum v
   - ASCII, ANSI, UTF
   - Arrays
   - Unterprogramme
+
+## 2. Jahr 2021/2022
+### Inhalt: 
+
+  - SQL
+  - Algorythmen
