@@ -1,5 +1,5 @@
-# School-Java
-Alle Java Programme die ich in der  🏫 Berufsschule-VII-Augsburg im Zeitraum von 2020-2023 programmiert habe.
+# School-Scrips
+Alle Programme die ich in der  🏫 Berufsschule-VII-Augsburg im Zeitraum von 2020-2023 programmiert habe.
 
 ## 1. Jahr 2020/2021
 ### Inhalt: 
@@ -16,5 +16,6 @@ Alle Java Programme die ich in der  🏫 Berufsschule-VII-Augsburg im Zeitraum v
 ## 2. Jahr 2021/2022
 ### Inhalt: 
 
-  - SQL
-  - Algorythmen
+  - PowerSchell Basics
+  - Bubble Sort
+  - Port Scanner
