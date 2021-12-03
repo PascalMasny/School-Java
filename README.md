@@ -17,5 +17,8 @@ Alle Programme die ich in der  🏫 Berufsschule-VII-Augsburg im Zeitraum von 20
 ### Inhalt: 
 
   - PowerSchell Basics
+  - Port Scanner / Common Port Scanner
   - Bubble Sort
-  - Port Scanner
+  - Insertion Sort
+  - Stupid Sort
+  - RegEX
