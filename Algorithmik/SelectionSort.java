@@ -1,12 +1,12 @@
-public class BubbleSort {
+public class SelectionSort{
     public static void main(String[] args) {
 
     	//Get Data
     	int[] array = getData();
     	//Print Data
     	System.out.println(output(array));
-    	//Bubble Sort the Data
-    	bubblesort(array);
+    	//Selection Sort the Data
+    	selectionsort(array);
     	
     }
     
@@ -25,28 +25,28 @@ public class BubbleSort {
     	return out;
     }
     
-    //Bubble Sort
-    public static void bubblesort(int[]array) {
-    	for (int i = array.length; i >= 0; i--) {
+    //SelectionSort
+    public static void selectionsort(int[]array) {
+
+    	for(int i = 0; i < array.length; i++) {
     		
-    		boolean swap = false;
+    		int min = i;
     		
-    		for (int j = 0; j < i -1 ; j++) {
-    			if (array[j] > array[j + 1]) {
-    				int tmp = array[j];
-    				array[j] = array[j + 1];
-    				array[j + 1] = tmp;
+    		for(int j = 0; j < i + 1; j++) {
+    			
+    			if(array[j] < array[min]) {
     				
-    				swap = true;
+    				min = j;
     			}
-    			
-    			
+    				
     		}
-    		if (swap == false) {
-				break;
-			}
     		
+			int tmp = array[min];
+			array[min] = array[i];
+			array[i] = tmp;
     	}
+    	
+    	
     	System.out.println(output(array));	
     	
     }
