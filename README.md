@@ -13,6 +13,8 @@ Alle Programme die ich in der  🏫 Berufsschule-VII-Augsburg im Zeitraum von 20
   - Arrays
   - Unterprogramme
 
+<br>
+
 ## 2. Jahr 2021/2022
 ### Inhalt: 
 
@@ -22,3 +24,4 @@ Alle Programme die ich in der  🏫 Berufsschule-VII-Augsburg im Zeitraum von 20
   - Insertion Sort
   - Stupid Sort
   - RegEX
+  - Linear Search
