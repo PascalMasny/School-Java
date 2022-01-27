@@ -25,3 +25,4 @@ Alle Programme die ich in der  🏫 Berufsschule-VII-Augsburg im Zeitraum von 20
   - Stupid Sort
   - RegEX
   - Linear Search
+  - 1 Schulaufgabe SQL & Algo
