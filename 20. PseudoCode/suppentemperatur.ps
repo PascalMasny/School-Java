@@ -1,0 +1,13 @@
+integer soup_start_tmp := 92
+integer soup_tmp := 0
+integer room_tmp := 20
+integer minuten := 0
+
+soup_tmp = soup_start_tmp
+
+solange (soup_tmp > room_tmp)
+    minuten = minuten + 1
+    soup_tmp = soup_tmp - (soup_tmp - room_tmp) * 0.1
+
+    ausgabe "Suppen tmp: " +  soup_tmp + "Minuten vergangen: " + minuten
+Ende solange 

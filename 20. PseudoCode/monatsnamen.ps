@@ -1,0 +1,11 @@
+string array monate := {"Januar" , "Februar", "März", ....} #Array beginnt mit 0
+
+string x := eingabe "Geben Sie den Monat ein:")
+iteger y := Integer.PasenInteger(x)
+
+wenn (y < 13 und y >  0) dann
+    ausgabe "Der Monat: " + x + "hat den namn" + monate[y - 1]
+sonst
+    ausgabe "ERR0R!"
+Ende wenn
+
