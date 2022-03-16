@@ -28,3 +28,4 @@ Alle Programme die ich in der  🏫 Berufsschule-VII-Augsburg im Zeitraum von 20
   - 1 Schulaufgabe SQL & Algo
   - 1 Schaulaufgabe PowerShell
   - Pseudo Code
+  - Java OO / UML
