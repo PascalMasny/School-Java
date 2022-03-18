@@ -1,6 +1,6 @@
 public class Konto {
     private double kontostand;
-    private String kontoNr;
+    private final String kontoNr;
 
     public Konto (String kontoNr){
         this.kontoNr = kontoNr;
@@ -15,7 +15,7 @@ public class Konto {
     }
 
     public void buchen (double betrag){
-        
+        kontostand = kontostand + betrag;
     }
     
 

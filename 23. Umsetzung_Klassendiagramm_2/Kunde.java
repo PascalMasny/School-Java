@@ -1,4 +1,4 @@
-public class Kude {
+public class Kunde {
     private int kundenNr;
     private String nachname;
     private String vorname;
@@ -8,7 +8,7 @@ public class Kude {
     }
 
     public String getKundenName (){
-        return nachname + "" + vorname;
+        return nachname + " " + vorname;
     }
 
     public void setName (String in_nachname, String in_vorname){
