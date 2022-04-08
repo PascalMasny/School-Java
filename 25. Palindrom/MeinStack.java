@@ -1,9 +1,9 @@
 public class MeinStack extends Palindromtester{
     
-    public char[] stapel;
-    public ibt tos = 0; //tos = top of stack
+    private char[] stapel = new char[100];
+    private int tos = 0; //tos = top of stack
 
-    public  cahr pop(){
+    public char pop(){
         char ch = stapel[tos - 1];
         stapel[tos - 1] = '\0';
         tos--;
@@ -14,9 +14,5 @@ public class MeinStack extends Palindromtester{
         stapel[tos] = c;
         tos++;
     }
-    
-
-    
-
     
 }
