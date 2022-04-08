@@ -1,15 +1,20 @@
 public class MeinStack extends Palindromtester{
-    char[] a; 
-    int TopOfStack = 0;
+    
+    public char[] stapel;
+    public ibt tos = 0; //tos = top of stack
 
-    public static cahr pop(){
-        
-        
+    public  cahr pop(){
+        char ch = stapel[tos - 1];
+        stapel[tos - 1] = '\0';
+        tos--;
+        return ch;
     }
 
-    public static void push(char c){
-        
+    public  void push(char c){
+        stapel[tos] = c;
+        tos++;
     }
+    
 
     
 
