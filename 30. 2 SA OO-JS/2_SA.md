@@ -46,28 +46,11 @@ Ergonimie passt die technische Umgebung an den Menschen an.
 
 Erkennungsmerkmale von GUIs
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
+<br>
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
 
 # Java Script
 
@@ -149,6 +132,9 @@ while(i<=5){
 
 <br>
 <br>
+<div style="page-break-after: always; visibility: hidden"> 
+\pagebreak 
+</div>
 
 ## If
 
